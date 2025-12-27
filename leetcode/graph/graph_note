@@ -1,0 +1,7 @@
+Graph:
+
+1. Node vertex
+2. Directed graph
+3. Undirected graph
+4. Cyclic graph - (if there is single cycle it is called cyclic graph)
+5. Non-cyclic graph - (if on starting from node we don't reach to that node in graph it does not have cycle)

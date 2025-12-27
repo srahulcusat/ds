@@ -1,0 +1,5 @@
+
+
+Dynamic programming
+-   Tabulation (bottom up)
+-   Memoization ()

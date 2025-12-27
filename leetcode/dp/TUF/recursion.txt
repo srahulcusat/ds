@@ -1,0 +1,2 @@
+Pick of not pick at each step is key to recursion
+Printing subseq which sub to K

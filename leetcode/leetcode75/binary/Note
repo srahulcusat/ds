@@ -1,0 +1,63 @@
+Binary :
+
+Operator:
+
+&   -> AND (used to simulate the carry)
+<<  -> LEFT SHIFT Operation (used to simulate the carry)
+^   -> XOR (used to simulate addition without the carry )
+
+a b a^b
+0 0 0
+0 1 1
+1 0 1
+1 1 0
+
+
+a b a&b
+0 0 0
+0 1 0
+1 0 0
+1 1 1
+
+Example of carry:
+7+7
+
+12 = 00001100 (In Binary)
+25 = 00011001 (In Binary)
+
+// Bitwise XOR Operation of 12 and 25
+   00001100
+ ^ 00011001
+____________
+   00010101 = 21 (In Decimal)
+
+12 = 00001100 (In Binary)
+25 = 00011001 (In Binary)
+
+// Bitwise AND Operation of 12 and 25
+   00001100
+ & 00011001
+____________
+   00001000 = 8 (In Decimal)
+
+
+Binart Sum
+111
+ 111
+ 111
+ _____
+1110
+
+
+Base 2 number:
+2+3 = 5
+
+Always remeber 2 and 3 in binary , for carry over
+To understand binary sum alway do numeric sum and replace the binary with binary, if it come 2, it mean 0 and 1
+is carryover , similar if it adds up to 3  it mean 1 and 1 is carry over
+
+2-> 1 0
+3-> 1 1
+
+
+
